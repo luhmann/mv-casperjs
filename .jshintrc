@@ -1,0 +1,55 @@
+{
+    //Enforcing options
+    "bitwise"       : true,
+    "camelcase"     : false,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "forin"         : true,
+    "immed"         : false,
+    "latedef"       : true,
+    "noarg"         : true,
+    "noempty"       : true,
+    "nonew"         : true,
+    "nonbsp"        : true,
+    "undef"         : true,
+    "unused"        : true,
+    "trailing"      : true,
+    "newcap"        : true,
+    "quotmark"      : "single",
+    "indent"        : 4,
+    "maxparams"     : 8,
+    "maxdepth"      : 4,
+    "maxstatements" : 15,
+    "maxcomplexity" : 8,
+
+    //no relaxing options
+
+    //Environments
+    "browser"       : true,
+    "jquery"        : true,
+    "node"          : true,
+
+    //add a few globals and shake vigorously
+    "globals"       : {
+        "MV"                : true,
+        "FB"                : true,
+        "Modernizr"         : true,
+        "it"                : true,
+        "describe"          : true,
+        "spyOn"             : true,
+        "jasmine"           : true,
+        "loadFixtures"      : true,
+        "expect"            : true,
+        "beforeEach"        : true,
+        "afterEach"         : true,
+        "_gaq"              : true,
+        "gapi"              : true,
+        "googleUserSession" : true,
+        "waitsFor"          : true,
+        "runs"              : true,
+        "waits"             : true,
+        "loadJSONFixtures"  : true,
+        "readFixtures"      : true
+    }
+
+}
